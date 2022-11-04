@@ -7,6 +7,8 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"oGuy","path":"objects/oGuy/oGuy.yy",},"order":0,},
     {"id":{"name":"sGuyFall","path":"sprites/sGuyFall/sGuyFall.yy",},"order":3,},
+    {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":4,},
+    {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":2,},
     {"id":{"name":"sGuyRun","path":"sprites/sGuyRun/sGuyRun.yy",},"order":2,},
     {"id":{"name":"sGuy","path":"sprites/sGuy/sGuy.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

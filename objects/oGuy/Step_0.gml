@@ -11,6 +11,8 @@ hsp = move * walksp;
 
 vsp = vsp + grv;
 
+
+
 if (place_meeting(x,y+1,oWall)) and (key_jump)
 {
    vsp = -7;
@@ -48,6 +50,7 @@ y = y + vsp;
 
 
 //le anime
+
 if (!place_meeting(x,y+1,oWall))
 {
     sprite_index = sGuyFall;
@@ -69,3 +72,4 @@ else
 
 
 if (hsp != 0) image_xscale = sign(hsp);
+
