@@ -1,19 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oGuy",
-  "spriteId": {
-    "name": "sGuyPistol",
-    "path": "sprites/sGuyPistol/sGuyPistol.yy",
-  },
+  "name": "oCamera",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "sGuy",
-    "path": "sprites/sGuy/sGuy.yy",
-  },
-  "persistent": false,
+  "spriteMaskId": null,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -34,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Managers",
+    "path": "folders/Objects/Managers.yy",
   },
 }

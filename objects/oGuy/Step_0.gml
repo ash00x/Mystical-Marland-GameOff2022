@@ -11,15 +11,12 @@ hsp = move * walksp;
 
 vsp = vsp + grv;
 
-
-
 if (place_meeting(x,y+1,oWall)) and (key_jump)
 {
-   vsp = -7;
+	vsp = -7;
 
 }
-
-
+	
 //Hrz collision
 
 if(place_meeting(x+hsp,y,oWall))  //place_meeting is checking if 2 things are touching, if is 1 use, while is constant
@@ -47,29 +44,28 @@ vsp = 0;
 }
 
 y = y + vsp;
-
-
+	
 //le anime
-
 if (!place_meeting(x,y+1,oWall))
 {
-    sprite_index = sGuyFall;
+	sprite_index = sGuyPistolFall;
 	image_speed = 0; //will be defined when i get the animation frames
 	if (sign(vsp) > 0) image_index = 1; else image_index = 0; //again will be defined when we get
 }
 else
 {
-    image_speed = 1;
+	image_speed = 1;
 	if (hsp == 0)
 	{
-	    sprite_index = sGuy
+		sprite_index = sGuyPistol
 	}
 	else
 	{
-		sprite_index = sGuyRun
+		sprite_index = sGuyPistolRun
 	}
 }
 
-
 if (hsp != 0) image_xscale = sign(hsp);
+
+
 
